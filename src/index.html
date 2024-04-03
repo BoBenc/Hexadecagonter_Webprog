@@ -1,0 +1,57 @@
+<!--
+File: index.html
+Author: Bőgér Bence
+Copyright: 2024, Bőgér Bence
+Group: Szoft I-2-N
+Date: 2024-04-03
+Github: https://github.com/BoBenc/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexadecagonter</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Főoldal</header>
+    <div class="container">
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Főoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Névjegy</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Hexadecagonter</h1>
+            <h2>Feladat</h2>
+            <p>Bőgér Bence, I-2-N, 2024-04-03</p>
+            <p>A program kiszámítja egy hexadecagon területét. A hexadecagon szabályos tizenhatszög.</p>
+            <div class="hexaform">
+                <div class="input">
+                    <label for="oldal" class="form-label">Oldal cm-ben (a)</label>
+                    <input type="text" id="oldal" class="form-control">
+                </div>
+            </div>
+            <div>
+                <button id="calcButton" class="btn btn-primary m-2">Számítás</button>
+            </div>
+            <div class="hexaform">
+                <div class="input">
+                    <label for="terulet" class="form-label">Területe (cm2)</label>
+                    <input type="text" id="terulet" class="form-control">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
